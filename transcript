@@ -1,0 +1,45 @@
+# Compile of cache_controller.v was successful.
+# Compile of cache_mem.v was successful.
+# Compile of main.v was successful.
+# Compile of main_memory.v was successful.
+# Compile of wb_test.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.main_test
+# vsim -gui work.main_test 
+# Start time: 12:48:08 on Dec 13,2020
+# Loading work.main_test
+# Loading work.main
+# Loading work.main_memory
+# Loading work.cache_mem
+# Loading work.cache_controller
+# ** Warning: (vsim-3015) C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main.v(38): [PCDPC] - Port size (32) does not match connection size (33) for port 'addr'. The port definition is at: C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main_memory.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main_test/dut/u0 File: C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main_memory.v
+# ** Error: (vsim-3063) C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main.v(40): Port 'mem_addr_sel' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /main_test/dut/u1 File: C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/cache_mem.v
+# Error loading design
+# End time: 12:48:08 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of cache_controller.v was successful.
+# Compile of cache_mem.v was successful.
+# Compile of main.v was successful.
+# Compile of main_memory.v was successful.
+# Compile of wb_test.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.main_test
+# vsim -gui work.main_test 
+# Start time: 12:49:17 on Dec 13,2020
+# Loading work.main_test
+# Loading work.main
+# Loading work.main_memory
+# Loading work.cache_mem
+# Loading work.cache_controller
+# ** Warning: (vsim-3015) C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main.v(38): [PCDPC] - Port size (32) does not match connection size (33) for port 'addr'. The port definition is at: C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main_memory.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /main_test/dut/u0 File: C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/main_memory.v
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/main_test/*
+run -all
+# ** Note: $stop    : C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/wb_test.v(97)
+#    Time: 248 ns  Iteration: 0  Instance: /main_test
+# Break in Module main_test at C:/4-2/VLSI/Lab/project/codes/Cache_with_Testbench/wb_test.v line 97
+# End time: 12:52:07 on Dec 13,2020, Elapsed time: 0:02:50
+# Errors: 0, Warnings: 2
